@@ -1,14 +1,6 @@
 // Mixins in here
 
-@mobile: ~"(max-width: 500px)";
-
-.btn {
-  width: 75%;
-  padding: 10px 30px;
-  border-radius: 10px;
-  background-color: teal;
-  color: white;
-  cursor: pointer;
-  text-align: center;
-  font-size: 20px;
+.btnstyle(@backbtn, @btncolor) {
+  background-color: @backbtn;
+  color: @btncolor;
 }
